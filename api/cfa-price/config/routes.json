@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cfa-prices",
+      "handler": "cfa-price.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cfa-prices/count",
+      "handler": "cfa-price.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cfa-prices/:id",
+      "handler": "cfa-price.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cfa-prices",
+      "handler": "cfa-price.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cfa-prices/:id",
+      "handler": "cfa-price.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cfa-prices/:id",
+      "handler": "cfa-price.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

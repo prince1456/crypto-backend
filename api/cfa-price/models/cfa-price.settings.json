@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cfa_prices",
+  "info": {
+    "name": "cfaPrice"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}
