@@ -5,7 +5,8 @@ application:
   organization: "QoveryCommunity"
 databases:
 - type: "POSTGRESQL"
-  name: "Crypto"
+  name: "Crypto-database"
+  version: "10"
 routers:
 - name: "main-crypto-backend"
   routes:
