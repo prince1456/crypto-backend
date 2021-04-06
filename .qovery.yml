@@ -1,0 +1,14 @@
+---
+application:
+  name: "crypto-backend"
+  project: "Crypto"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "Crypto"
+routers:
+- name: "main-crypto-backend"
+  routes:
+  - application_name: "crypto-backend"
+    paths:
+    - "/*"
