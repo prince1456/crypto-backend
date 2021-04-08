@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/03/2021 11:35:59 PM"
+    "x-generation-date": "04/08/2021 10:54:51 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3375,12 +3375,18 @@
           "amount": {
             "type": "number"
           },
-          "date": {
+          "cryptoType": {
+            "type": "string"
+          },
+          "orderID": {
+            "type": "string"
+          },
+          "orderCreatedTime": {
             "type": "string",
             "format": "date-time"
           },
-          "cryptoType": {
-            "type": "string"
+          "payedMony": {
+            "type": "number"
           },
           "published_at": {
             "type": "string",
@@ -3408,12 +3414,18 @@
           "amount": {
             "type": "number"
           },
-          "date": {
+          "cryptoType": {
+            "type": "string"
+          },
+          "orderID": {
+            "type": "string"
+          },
+          "orderCreatedTime": {
             "type": "string",
             "format": "date-time"
           },
-          "cryptoType": {
-            "type": "string"
+          "payedMony": {
+            "type": "number"
           },
           "published_at": {
             "type": "string",

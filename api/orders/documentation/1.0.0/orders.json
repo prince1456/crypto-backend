@@ -540,12 +540,18 @@
           "amount": {
             "type": "number"
           },
-          "date": {
+          "cryptoType": {
+            "type": "string"
+          },
+          "orderID": {
+            "type": "string"
+          },
+          "orderCreatedTime": {
             "type": "string",
             "format": "date-time"
           },
-          "cryptoType": {
-            "type": "string"
+          "payedMony": {
+            "type": "number"
           },
           "published_at": {
             "type": "string",
@@ -573,12 +579,18 @@
           "amount": {
             "type": "number"
           },
-          "date": {
+          "cryptoType": {
+            "type": "string"
+          },
+          "orderID": {
+            "type": "string"
+          },
+          "orderCreatedTime": {
             "type": "string",
             "format": "date-time"
           },
-          "cryptoType": {
-            "type": "string"
+          "payedMony": {
+            "type": "number"
           },
           "published_at": {
             "type": "string",

@@ -29,11 +29,17 @@
     "amount": {
       "type": "float"
     },
-    "date": {
-      "type": "datetime"
-    },
     "cryptoType": {
       "type": "string"
+    },
+    "orderID": {
+      "type": "string"
+    },
+    "orderCreatedTime": {
+      "type": "datetime"
+    },
+    "payedMony": {
+      "type": "decimal"
     }
   }
 }
