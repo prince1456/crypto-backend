@@ -40,6 +40,15 @@
     },
     "payedMony": {
       "type": "decimal"
+    },
+    "transactionId": {
+      "type": "string"
+    },
+    "walletNumber": {
+      "type": "string"
+    },
+    "proccedOrder": {
+      "type": "boolean"
     }
   }
 }
