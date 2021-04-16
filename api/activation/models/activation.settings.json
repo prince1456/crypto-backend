@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activations",
+  "info": {
+    "name": "Activation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "isOpen": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
