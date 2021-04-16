@@ -553,6 +553,15 @@
           "payedMony": {
             "type": "number"
           },
+          "transactionId": {
+            "type": "string"
+          },
+          "walletNumber": {
+            "type": "string"
+          },
+          "proccedOrder": {
+            "type": "boolean"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -591,6 +600,15 @@
           },
           "payedMony": {
             "type": "number"
+          },
+          "transactionId": {
+            "type": "string"
+          },
+          "walletNumber": {
+            "type": "string"
+          },
+          "proccedOrder": {
+            "type": "boolean"
           },
           "published_at": {
             "type": "string",
