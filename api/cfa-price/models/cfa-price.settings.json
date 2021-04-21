@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "cfa_prices",
   "info": {
-    "name": "cfaPrice"
+    "name": "cfaPrice",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,6 +15,9 @@
       "type": "string"
     },
     "price": {
+      "type": "decimal"
+    },
+    "dollarRate": {
       "type": "decimal"
     }
   }
